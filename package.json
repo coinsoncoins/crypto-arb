@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node main",
+    "test": "./node_modules/.bin/mocha --reporter spec",
     "start": "node main"
   },
   "repository": {
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/coinsoncoins/crypto-arb#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
     "request": "^2.83.0"
   }
 }
