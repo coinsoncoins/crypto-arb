@@ -1,0 +1,24 @@
+{
+  "name": "crypto-arb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node main",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinsoncoins/crypto-arb.git"
+  },
+  "author": "@coinsoncoins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coinsoncoins/crypto-arb/issues"
+  },
+  "homepage": "https://github.com/coinsoncoins/crypto-arb#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0"
+  }
+}
