@@ -19,6 +19,7 @@ processApiData = function(apiData) {
 }
 
 class BittrexClient {
+  
   static getSnapshot() {
     let url = "https://bittrex.com/api/v1.1/public/getmarketsummaries";
     request(url).then(function(result) { return processApiData(result.body); })
